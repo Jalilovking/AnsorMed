@@ -11,3 +11,23 @@ body {
 h1, h2, h3, .btn {
     font-family: 'Open Sans Condensed', 'Arial', sans-serif;
 }
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.3s ease all;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
