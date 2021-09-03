@@ -1,0 +1,51 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/open-sans-v23-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v23-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-700 - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/open-sans-v23-latin-700.woff2") format("woff2"), url("../fonts/open-sans-v23-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-condensed-700 - latin */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/open-sans-condensed-v15-latin-700.woff2") format("woff2"), url("../fonts/open-sans-condensed-v15-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+h1, h2, h3, .btn {
+  font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+}
+
+.container {
+  width: 1130px;
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */
