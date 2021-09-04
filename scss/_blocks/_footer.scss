@@ -1,9 +1,10 @@
-.header {
+.footer {
     padding: 24px;
+    background: #222222;
     &__nav {
         display: flex;
-        align-items: center;
         justify-content: space-between;
+        align-items: center;
     }
     &__logo {
         display: flex;
@@ -14,17 +15,14 @@
             font-weight: 600;
             letter-spacing: normal;
             line-height: 33px;
-            color: #222;
+            color: #fff;
             margin-left: 16px;
         }
-        &:hover .header__logo--text{
+        &:hover .footer__logo--text{
             color: #DE2E54;
         }
         &:active {
             opacity: 0.6;
-        }
-        &:active .header__logo--text {
-            color: #DE2E54;
         }
     }
     &__list {
@@ -41,24 +39,11 @@
         font-size: 14px;
         font-weight: 700;
         line-height: 150%;
-        color: #222222;
+        color: #fff;
         &:hover {
             color: #DE2E54;
         }
         &:active {
-            color: #DE2E54;
-            opacity: 0.6;
-        }
-    }
-    &__btn {
-        background: #DE2E54;
-        border: 2px solid #DE2E54;
-        &:hover {
-            background: #fff;
-            color: #DE2E54;
-        }
-        &:active {
-            background: #DE2E54;
             color: #fff;
             opacity: 0.6;
         }
