@@ -25,7 +25,8 @@
         }
     }
     &__img {
-        overflow: hidden;
+        box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
+        border-radius: 24px;
     }
     &__article {
         width: 600px;
