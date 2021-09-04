@@ -186,4 +186,93 @@ img {
   color: #fff;
   opacity: 0.6;
 }
+
+.xizmatlar {
+  padding: 120px 0;
+}
+
+.xizmatlar__container {
+  padding: 0 133px;
+}
+
+.xizmatlar__title {
+  font-size: 36px;
+  text-align: center;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 56px;
+}
+
+.xizmatlar__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.xizmatlar__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.xizmatlar__item:last-child {
+  margin-bottom: 0;
+}
+
+.xizmatlar__img {
+  overflow: hidden;
+}
+
+.xizmatlar__article {
+  width: 600px;
+  max-width: 100%;
+}
+
+.xizmatlar__sub-title {
+  font-size: 24px;
+  color: #222222;
+  margin-bottom: 24px;
+}
+
+.xizmatlar__text {
+  line-height: 150%;
+  color: #444444;
+}
+
+.xizmatlar__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.xizmatlar__btn {
+  background: #DE2E54;
+  border: 2px solid #DE2E54;
+}
+
+.xizmatlar__btn:hover {
+  background: #fff;
+  color: #DE2E54;
+}
+
+.xizmatlar__btn:active {
+  background: #DE2E54;
+  color: #fff;
+  opacity: 0.6;
+}
 /*# sourceMappingURL=main.css.map */

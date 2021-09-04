@@ -1,0 +1,60 @@
+.xizmatlar {
+    padding: 120px 0;
+    &__container {
+        padding: 0 133px;
+    }
+    &__title {
+        font-size: 36px;
+        text-align: center;
+        line-height: 120%;
+        color: #000000;
+        margin-bottom: 56px;
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__img {
+        overflow: hidden;
+    }
+    &__article {
+        width: 600px;
+        max-width: 100%;
+    }
+    &__sub-title {
+        font-size: 24px;
+        color: #222222;
+        margin-bottom: 24px;
+    }
+    &__text {
+        line-height: 150%;
+        color: #444444;
+    }
+    &__box {
+        display: flex;
+        justify-content: center;
+    }
+    &__btn {
+        background: #DE2E54;
+        border: 2px solid #DE2E54;
+        &:hover {
+            background: #fff;
+            color: #DE2E54;
+        }
+        &:active {
+            background: #DE2E54;
+            color: #fff;
+            opacity: 0.6;
+        }
+    }
+}
