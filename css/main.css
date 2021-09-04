@@ -275,4 +275,45 @@ img {
   color: #fff;
   opacity: 0.6;
 }
+
+.qabul {
+  background: #0EB4C1;
+}
+
+.qabul__container {
+  padding: 64px 326px;
+}
+
+.qabul__title {
+  font-size: 36px;
+  text-align: center;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.qabul__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.qabul__btn {
+  border: 2px solid #FFFFFF;
+}
+
+.qabul__btn:hover {
+  background: #DE2E54;
+  border: 2px solid transparent;
+}
+
+.qabul__btn:active {
+  opacity: 0.6;
+}
 /*# sourceMappingURL=main.css.map */

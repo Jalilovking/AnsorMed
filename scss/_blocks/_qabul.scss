@@ -1,0 +1,28 @@
+.qabul {
+    background: #0EB4C1;
+    &__container {
+        padding: 64px 326px;
+    }
+    &__title {
+        font-size: 36px;
+        text-align: center;
+        line-height: 120%;
+        color: #fff;
+        margin-bottom: 40px;
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__btn {
+        border: 2px solid #FFFFFF;
+        &:hover {
+            background: #DE2E54;
+            border: 2px solid transparent;
+        }
+        &:active {
+            opacity: 0.6;
+        }
+    }
+}
